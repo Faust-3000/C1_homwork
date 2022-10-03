@@ -51,7 +51,7 @@ Console.WriteLine($"максимальное из этих чисел = {max}");
 -3 -> нет
 7 -> нет */
 
-Console.WriteLine("Введите число которое хотите проверить на четность");
+/* Console.WriteLine("Введите число которое хотите проверить на четность");
 int Num1 = int.Parse(Console.ReadLine()!);
 
 if(Num1 % 2 == 0)
@@ -61,4 +61,23 @@ Console.WriteLine("да");
 else
 {
 Console.WriteLine("нет");
+} */
+
+/* Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+5 -> 2, 4
+8 -> 2, 4, 6, 8 */
+
+Console.WriteLine("Введите число ");
+int N = int.Parse(Console.ReadLine()!);
+int start = 1;
+
+while (start < N)
+{
+    if(start % 2 == 0)
+    {
+        Console.Write(start);
+        Console.Write(",");
+    }
+    start ++;
 }
+ Console.WriteLine("");
