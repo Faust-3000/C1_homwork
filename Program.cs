@@ -51,3 +51,14 @@ Console.WriteLine($"максимальное из этих чисел = {max}");
 -3 -> нет
 7 -> нет */
 
+Console.WriteLine("Введите число которое хотите проверить на четность");
+int Num1 = int.Parse(Console.ReadLine()!);
+
+if(Num1 % 2 == 0)
+{
+Console.WriteLine("да");
+}
+else
+{
+Console.WriteLine("нет");
+}
