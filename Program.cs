@@ -27,7 +27,7 @@ else if(Num1 == Num2)
 44 5 78 -> 78
 22 3 9 -> 22 */
 
-Console.WriteLine("Введите первое число: ");
+/* Console.WriteLine("Введите первое число: ");
 int Num1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
 int Num2 = int.Parse(Console.ReadLine()!);
@@ -43,4 +43,11 @@ if(Num3 > Num2)
 {
     max = Num3;
 }
-Console.WriteLine($"максимальное из этих чисел = {max}");
+Console.WriteLine($"максимальное из этих чисел = {max}"); */
+
+/*Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет */
+
